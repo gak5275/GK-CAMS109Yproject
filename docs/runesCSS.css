@@ -8,15 +8,24 @@ body {
 }
 p {
     /* font-size: 11px; */
+
 }
-/* h1 {
-    margin-right: 300px;
-    margin-left: 350px;
+h1 {
+    text-align: center;
 }
-nav {
-    margin-right: 300px;
-    margin-left: 350px;
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+/* h4 {
+    text-align: center;
 } */
+nav {
+    text-align: center;
+    border: 3px solid #8AC007;
+}
 img {
     width: 500px;
     margin-right: 300px;
@@ -28,6 +37,14 @@ figure {
     padding-top: 1vw;
     padding-bottom: 1vw;
 }
+u{
+    font-family: RuneFont;
+    font-size: 50px;
+}
+@font-face {
+    font-family: RuneFont;
+    src: url("YoungerFutharkDanaamyhr-Regular.ttf");}
+    
 /*figcaption {font-style: italic; font-size: smaller;}*/
 img.small {max-width:250px; width:100%}
 img.license {max-width:100px; width:100%}
